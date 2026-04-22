@@ -1,0 +1,13 @@
+{
+  "name": "sql-debugger-visualizer",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev:client": "npm --workspace client run dev",
+    "dev:server": "npm --workspace server start"
+  }
+}
